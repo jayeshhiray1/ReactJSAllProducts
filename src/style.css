@@ -1,0 +1,38 @@
+h1, p {
+  font-family: Lato;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#prodcutlist {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#prodcutlist td,
+#prodcutlist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#prodcutlist tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#prodcutlist tr:hover {
+  background-color: #ddd;
+}
+
+#prodcutlist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #474947;
+  color: white;
+}
